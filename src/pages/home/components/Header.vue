@@ -39,8 +39,7 @@ export default {
   color:#fff
   .header-left
     flex-basis :.64rem
-    border :1px solid #000
-    .back-icon
+    .back-icon1
       text-align :center
       font-size :.4rem
   .header-input
@@ -53,9 +52,7 @@ export default {
     background :#fff
     border-radius :.1rem
     color:#ccc
-    border :1px solid #000
   .header-right
-    border :1px solid #000
     flex-basis :1.24rem
     text-align :center
     .arrow-icon
