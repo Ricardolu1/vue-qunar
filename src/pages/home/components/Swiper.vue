@@ -8,7 +8,7 @@
       <!-- Optional controls -->
       <div class="swiper-pagination"  slot="pagination"></div>
     </swiper>
-  </div>
+    </div>
 </template>
 
 <script>
@@ -52,10 +52,11 @@ export default {
     overflow: hidden
     width:100%
     height:0
-    padding-bottom :31.25%
-    background #eee
+    padding-bottom :30.3%
+    background: #eee
     .swiper-img 
       width:100%
+    
       
 
 

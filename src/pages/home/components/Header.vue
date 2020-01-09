@@ -39,7 +39,7 @@ export default {
   color:#fff
   .header-left
     flex-basis :.64rem
-    .back-icon1
+    .back-icon
       text-align :center
       font-size :.4rem
   .header-input
