@@ -91,6 +91,7 @@ export default {
 
 <style  lang="stylus"scoped>
   @import '~styles/varibles.styl'
+  @import '~styles/mixins.styl'
   .icons 
     height 50vw
     display flex
@@ -109,11 +110,9 @@ export default {
         color $darkTextColor
         font-size .28rem
         margin-top .1rem
-        overflow hidden
-        white-space nowrap
-        text-overflow ellipsis
-
-    
+        text-align center
+        width 100%
+        ellipsis()
       
         
 
