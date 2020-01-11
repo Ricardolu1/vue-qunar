@@ -92,27 +92,29 @@ export default {
 <style  lang="stylus"scoped>
   @import '~styles/varibles.styl'
   @import '~styles/mixins.styl'
-  .icons 
-    height 50vw
-    display flex
-    flex-wrap wrap
-    .icon 
-      height 25vw
-      width 25%
+  .wrapper
+    margin-top .1rem
+    .icons 
+      height 50vw
       display flex
-      flex-direction column
-      justify-content center
-      align-items center
-      .icon-img 
-        height 55px
-        width 55px
-      .keywords
-        color $darkTextColor
-        font-size .28rem
-        margin-top .1rem
-        text-align center
-        width 100%
-        ellipsis()
+      flex-wrap wrap
+      .icon 
+        height 25vw
+        width 25%
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        .icon-img 
+          height 55px
+          width 55px
+        .keywords
+          color $darkTextColor
+          font-size .28rem
+          margin-top .1rem
+          text-align center
+          width 100%
+          ellipsis()
       
         
 
