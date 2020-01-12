@@ -2,7 +2,7 @@
   <div>
     <div class="title">周末去哪</div>
     <ul>
-      <li class="item border-bottom" v-for="item of weekendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <div class="item-img-wrapper">
           <img :src="item.imgUrl" alt="" class="item-img">
         </div>
@@ -21,28 +21,11 @@ export default {
   components: {
 
   },
+  props:{
+    list:Array
+  },
   data () {
     return {
-      weekendList:[
-        {
-          id:'0001',
-          imgUrl:'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
-          title:'大连圣亚海洋世界',
-          desc:'浪漫大连首站，浪漫的海洋主题公园'
-        },
-        {
-          id:'0002',
-          imgUrl:'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
-          title:'大连圣亚海洋世界',
-          desc:'浪漫大连首站，浪漫的海洋主题公园'
-        },
-        {
-          id:'0003',
-          imgUrl:'http://img1.qunarzz.com/sight/source/1812/b4/e9d7f043c4fadf.jpg_r_640x214_713df0cf.jpg',
-          title:'大连圣亚海洋世界',
-          desc:'浪漫大连首站，浪漫的海洋主题公园'
-        },
-      ]
     }
   },
   methods: {
