@@ -61,7 +61,7 @@ export default {
           }
           clearTimeout(this.timer)
           this.timer = null
-        }, 1000)
+        }, 16)
 
       }
     },
