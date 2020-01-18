@@ -58,12 +58,12 @@ export default {
     background #000
     .wrapper  
       background #fff
-      height 56.26vw
+      height 0
+      padding-bottom 100%
       width 100%
       .gallary-img
         width 100%
-        vertical-align middle
       .swiper-pagination
         color #fff
-        bottom -3rem
+        bottom -1rem
 </style>
